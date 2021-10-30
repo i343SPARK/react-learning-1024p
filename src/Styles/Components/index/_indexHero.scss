@@ -1,0 +1,37 @@
+.background-hero{
+    width: 100%;
+    height: auto;
+    
+    .hero-bg{
+        width: 100%;
+        z-index: 0;
+        position: absolute;
+    }
+
+    .text-hero{
+        top: 82px;
+        z-index: 1;
+        width: 100%;
+        position: absolute;
+        margin: 0 auto;
+
+        h1{
+            font-family: 'Bungee', cursive;
+            color: white;
+            text-align: center;
+            font-size: 30pt;
+            line-height: 84pt;
+        }
+
+        .phero{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 14.7521pt;
+            line-height: 24.7025pt;
+            width: auto;
+            margin: 0 calc(50% - 275px);
+        }
+    }
+
+}
