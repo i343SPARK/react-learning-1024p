@@ -1,12 +1,14 @@
 import React from 'react'
-import { DescriptIndex } from './DescriptIndex'
+import { IndexDescription } from './IndexDescription'
 import { IndexHero } from './IndexHero'
+import { IndexSlabs } from './IndexSlabs'
 
-export function IndexScreen() {
+export const IndexScreen = () => {
     return (
         <>
             <IndexHero/>
-            <DescriptIndex/>
+            <IndexDescription/>
+            <IndexSlabs/>
         </>
     )
 }

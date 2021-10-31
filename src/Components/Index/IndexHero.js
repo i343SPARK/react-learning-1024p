@@ -1,7 +1,7 @@
 import React from 'react'
 import Bgimg from "../../Assets/HeroBg.png"
 
-export function IndexHero() {
+export const IndexHero = () => {
     return (
         <section className="background-hero">
             <img className="hero-bg" src={Bgimg} alt="Hero-Cima"/>
