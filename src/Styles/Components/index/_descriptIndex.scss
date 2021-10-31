@@ -1,16 +1,14 @@
 .cont-int{
-    top: 400px;
     width: 100%;
     height: auto;
-    display: flex;
     position: relative;
 
     .descript-int{
-
-    }
-
-    .img-persons{
-        width: 700px;
-
+        font-family: 'Roboto', sans-serif;
+        font-size: 13pt;
+        width: 541px;
+        position: absolute;
+        left: calc(25% - 243px);
+        top: -117px;
     }
 }
