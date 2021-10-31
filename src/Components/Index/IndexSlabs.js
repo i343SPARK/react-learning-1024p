@@ -2,10 +2,13 @@ import React from 'react'
 
 import Check from "../../Assets/check.png"
 import Start from "../../Assets/start.png"
+import Menor from "../../Assets/menorqueAzul.png"
+import Flor from "../../Assets/flor.png"
+
 import { SlabsContent } from './SlabsContent'
 
 const dataSlab = [{
-    noSlab:"Slab 1",
+    noSlab:"Slab 1.",
     content:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
     activityA:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis",
     activityB:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis",
@@ -14,7 +17,7 @@ const dataSlab = [{
     start: Start
 },
 {
-    noSlab:"Slab 2",
+    noSlab:"Slab 2.",
     content:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
     activityA:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis",
     activityB:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis",
@@ -26,7 +29,9 @@ const dataSlab = [{
 export const IndexSlabs = () => {
     return (
         <section className="Slab-section">
+            <img className="menor" src={Menor} alt="menor"/>
             {dataSlab.map(data => (<SlabsContent topic={data} />))}
+            <img className="flor" src={Flor} alt="flor"/>
         </section>
     )
 }
