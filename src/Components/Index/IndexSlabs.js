@@ -6,6 +6,7 @@ import Menor from "../../Assets/menorqueAzul.png"
 import Flor from "../../Assets/flor.png"
 
 import { SlabsContent } from './SlabsContent'
+import { Link } from 'react-router-dom'
 
 const dataSlab = [{
     noSlab:"Slab 1.",
@@ -29,9 +30,14 @@ const dataSlab = [{
 export const IndexSlabs = () => {
     return (
         <section className="Slab-section">
-            <img className="menor" src={Menor} alt="menor"/>
+            <div className="img-cont-des">
+                <img className="menor" src={Menor} alt="menor"/>
+                <img className="flor" src={Flor} alt="flor"/>
+            </div>
             {dataSlab.map(data => (<SlabsContent topic={data} />))}
-            <img className="flor" src={Flor} alt="flor"/>
+            <div className="start-cont-buttom">
+                <Link className="start-buttom" to="/">FINALIZAR</Link>
+            </div>
         </section>
     )
 }

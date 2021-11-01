@@ -1,12 +1,48 @@
 .Slab-section{
+    margin-top: 100px;
     width: 100%;
     height: auto;
 
-    .menor{
-        width: 300px;
+    .img-cont-des{
+        width: 100%;
+        position: absolute;
+
+        .menor{
+            width: 232px;
+            position: absolute;
+            left: -30px;
+            top: 139px;
+            z-index: 0;
+        }
+    
+        .flor{
+            width: 330px;
+            position: relative;
+            float: right;
+            top: 361px;
+            z-index: 0;
+        }
+
     }
 
-    .flor{
-        width: 300px;
+    .start-cont-buttom{
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+
+        .start-buttom{
+            width: 440px;
+            height: auto;
+            margin: 0 auto;
+            padding: 0 100px;
+            font-family: 'Bungee', cursive;
+            font-size: 37px;
+            line-height: 68px;
+            text-decoration: none;
+            color: white;
+            background-color: #0101b5;
+            border-radius: 150px;
+        }
     }
+
 }
