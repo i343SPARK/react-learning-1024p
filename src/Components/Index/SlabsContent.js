@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 
 export const SlabsContent = ({topic}) => {
     return (
+        <>
         <div className="slab-counter">
             <h2>{topic.noSlab}</h2>
             <div className="slab-sect-a">
@@ -41,5 +42,6 @@ export const SlabsContent = ({topic}) => {
             </Link>
             </div>
         </div>
+        </>
     )
 }
