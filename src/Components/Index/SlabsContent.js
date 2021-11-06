@@ -10,7 +10,7 @@ export const SlabsContent = ({topic}) => {
         <div className="slab-counter">
             <h2>{topic.noSlab}</h2>
             <div className="slab-sect-a">
-            <Link className="linkSlab" to="/">
+            <Link className="linkSlab" to="/content-text">
                 <article className="article-a1">
                     <h3 className="h3-slab">Contenido</h3>
                     <p className="p-slab">{topic.content}</p>
