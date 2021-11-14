@@ -28,8 +28,8 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                     </article>
                 </div>
                 <div className='left-content-buttoms'>
-                    <Link className='content-buttom'><span></span> Contenido</Link>
-                    <Link className='video-buttom'><span></span> Video</Link>
+                    <Link className='content-buttom'><span className='pinkPaper-icon'></span> Contenido</Link>
+                    <Link className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
                 </div>
             </section>
             <div>
