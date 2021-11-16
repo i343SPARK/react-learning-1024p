@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                     <Link className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
                 </div>
             </section>
-            <div>
+            <div className='bottom-div'>
                 <Link className='back-buttom'>Atrás</Link>
                 <Link className='next-buttom'>Listo</Link>
             </div>
