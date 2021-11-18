@@ -29,7 +29,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                 </div>
                 <div className='left-content-buttoms'>
                     <Link to='/content-text' className='content-buttom'><span className='pinkPaper-icon'></span> Contenido</Link>
-                    <Link className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
+                    <Link to='/content-video' className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
                 </div>
             </section>
             <div className='bottom-div'>
