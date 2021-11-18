@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
             </section>
             <div className='bottom-div'>
                 <Link to='/' className='back-buttom'>Atrás</Link>
-                <Link to='/content-video' className='next-buttom'>Listo</Link>
+                <Link to='/content-video' className='next-buttom'>Siguiente</Link>
             </div>
         </section>
     )
