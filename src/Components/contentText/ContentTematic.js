@@ -28,13 +28,13 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                     </article>
                 </div>
                 <div className='left-content-buttoms'>
-                    <Link className='content-buttom'><span className='pinkPaper-icon'></span> Contenido</Link>
+                    <Link to='/content-text' className='content-buttom'><span className='pinkPaper-icon'></span> Contenido</Link>
                     <Link className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
                 </div>
             </section>
             <div className='bottom-div'>
-                <Link className='back-buttom'>Atrás</Link>
-                <Link className='next-buttom'>Listo</Link>
+                <Link to='/' className='back-buttom'>Atrás</Link>
+                <Link to='/content-video' className='next-buttom'>Listo</Link>
             </div>
         </section>
     )
