@@ -11,7 +11,7 @@ export function VideoTematic() {
             </div>
             <section className='content-center'>
                 {/* <div className='descript-content'> */}
-                <iframe className='video-content' src="https://www.youtube.com/embed/8txpDvFnh5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className='video-content' src="https://www.youtube.com/embed/dNTN4BTHIVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {/* </div> */}
                 <div className='left-content-buttoms'>
                     <Link to='/content-text' className='ready-content-buttom'><span className='pinkPaper-icon'></span> Contenido</Link>
@@ -20,7 +20,7 @@ export function VideoTematic() {
             </section>
             <div className='bottom-div'>
                 <Link to='/content-text' className='back-buttom'>Atrás</Link>
-                <Link className='ready-buttom'>Listo</Link>
+                <Link to='/' className='ready-buttom'>Listo</Link>
             </div>
         </section>
     )
