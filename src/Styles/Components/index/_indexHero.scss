@@ -1,11 +1,23 @@
 .background-hero{
     width: 100%;
     height: auto;
+
+    .cima{
+        position: relative;
+        top: 28px;
+        left: 107px;
+        margin: 0 auto;
+        width: 9%;
+        z-index: 1;
+    }
     
     .hero-bg{
+        position: relative;
+        top: -93px;
         width: 100%;
         min-height: 320px;
         max-height: 660px;
+        z-index: 0;
     }
 
     .text-hero{
@@ -32,6 +44,16 @@
             width: auto;
             margin: 0 calc(50% - 275px);
         }
+
+        .persons{
+            position: relative;
+            // right: calc(50% - 480px);
+            top: -22px;
+            min-width: 39%;
+            max-width: 40%;
+            float: right;
+        }
     }
+
 
 }
