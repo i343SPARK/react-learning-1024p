@@ -20,7 +20,7 @@ export function VideoTematic() {
             </section>
             <div className='bottom-div'>
                 <Link to='/content-text' className='back-buttom'>Atrás</Link>
-                <Link to='/' className='ready-buttom'>Listo</Link>
+                <Link to='/Activity-A' className='ready-buttom'>Actividad A</Link>
             </div>
         </section>
     )

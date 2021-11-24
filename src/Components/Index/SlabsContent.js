@@ -17,7 +17,7 @@ export const SlabsContent = ({topic}) => {
                     <img className="icon" src={start} alt="icon"/>
                 </article>
             </Link>
-            <Link className="linkSlab" to="/">
+            <Link className="linkSlab" to="/Activity-A">
                 <article className="article-b1">
                     <h3 className="h3-slab">Actividad A</h3>
                     <p className="p-slab">{topic.activityA}</p>

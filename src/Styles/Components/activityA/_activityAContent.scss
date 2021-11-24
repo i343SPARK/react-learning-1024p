@@ -1,0 +1,185 @@
+.content-data{
+    min-width: 59%;
+    max-width: 990px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0px 0px 18px 0px rgb(188, 195, 214);
+
+    h2{
+        margin-left: 20px;
+        font-family: 'Bungee', cursive;
+        color: #0000cc;
+        text-align: left;
+        font-size: 20pt;
+        line-height: 20pt;
+    }
+
+    .timer-content{
+        margin-left: 20px;
+        margin-top: 8px;
+        display: flex;
+        gap: 5px;
+
+        .timer{
+            display: inline-block;
+            width: 14px;
+            height: 16px;
+            background-image: url('../../../Assets/timer.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .p-time{
+            font-family: 'Roboto', sans-serif;
+            color: #999999;
+            font-size: 11pt;
+        }
+    }
+
+    .content-center{
+        margin-top: 40px;
+        display: flex;
+        margin-right: 20px;
+        
+        .descript-content{
+            background-color: #cccccc;
+            padding: 20px;
+            max-width: 720px;
+            height: auto;
+
+            .scroll-describt{
+                background-color: #ccc;
+                margin: 2px;
+                height: 400px;
+                overflow-y: scroll;
+
+                h3{
+                    font-family: 'Bungee', cursive;
+                    background-color: #fff;
+                    padding: 10px;
+                }
+
+                .activityA-activity{
+                    font-family: 'Roboto', sans-serif;
+                    background-color: #fff;
+                    width: 655px;
+                    height: 330px;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .left-content-buttoms{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+
+            .content-buttom{
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15pt;
+                color: #ff8a98;
+                text-decoration: none;
+                border:3px solid #ff8a98;
+                border-radius: 10px;
+                padding-top: 15px;
+                width: 150px;
+                height: 60px;
+                box-shadow: 0px 0px 18px 0px rgb(188, 195, 214);
+
+                .pinkPaper-icon{
+                    display: inline-block;
+                    width: 17px;
+                    height: 20px;
+                    background-image: url('../../../Assets/pinkPaper.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+            }
+
+            .video-buttom{
+                display: flex;
+                justify-content: flex-start;
+                gap: 20px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15pt;
+                color: #666;
+                text-decoration: none;
+                border-radius: 10px;
+                margin-top: 10px;
+                padding-top: 20px;
+                padding-left: 10px;
+                width: 150px;
+                height: 60px;
+                box-shadow: 0px 0px 18px 0px rgb(188, 195, 214);
+                transition: 0.2s;
+
+                .grayVideo-icon{
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url('../../../Assets/grayVideo.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+            }
+
+            .video-buttom:hover{
+                background-color: #ff8a98;
+                color: white;
+
+                .grayVideo-icon{
+                    background-image: url('../../../Assets/whiteVideo.png');
+                }
+            }
+        }
+    }
+
+    .bottom-div{
+        display: flex;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        justify-content: flex-start;
+        gap: 220px;
+
+        .back-buttom{
+            width: 250px;
+            padding: 10px 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 21px;
+            text-decoration: none;
+            text-align: center;
+            color: #666;
+            border: 3px solid #666;
+            border-radius: 30px;
+        }
+
+        .next-buttom{
+            width: 250px;
+            padding: 10px 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 21px;
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            background-color: #666;
+            border-radius: 30px;
+            transition: 0.2s;
+        }
+
+        .next-buttom:hover{
+            background-color: rgb(131, 131, 131);
+        }
+    }
+}
