@@ -5,13 +5,14 @@
 
     .img-cont-des{
         width: 100%;
+        height: 1px;
         position: absolute;
 
         .menor{
             width: 232px;
             position: absolute;
             left: -30px;
-            top: 139px;
+            top: -169px;
             z-index: 0;
         }
     
@@ -19,7 +20,7 @@
             width: 330px;
             position: relative;
             float: right;
-            top: 361px;
+            top: -131px;
             z-index: 0;
         }
 
