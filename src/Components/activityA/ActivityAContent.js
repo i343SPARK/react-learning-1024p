@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export function ActivityAContent() {
     return (
-        <section className="content-data">
+        <section className="activityA-content">
                 <h2>Técnica didáctica</h2>
             <div className='timer-content'>
                 <span className='timer'></span>
@@ -17,8 +17,8 @@ export function ActivityAContent() {
                     </article>
                 </div>
                 <div className='left-content-buttoms'>
-                    <Link to='/content-text' className='content-buttom'><span className='pinkPaper-icon'></span> Actividad A</Link>
-                    <Link to='/content-video' className='video-buttom'><span className=''></span> Actividad B</Link>
+                    <Link to='/content-text' className='activityA-buttom'><span className='pinkPaper-icon'></span> Actividad A</Link>
+                    <Link to='/content-video' className='activityB-buttom'><span className='grayPaper-icon'></span> Actividad B</Link>
                 </div>
             </section>
             <div className='bottom-div'>

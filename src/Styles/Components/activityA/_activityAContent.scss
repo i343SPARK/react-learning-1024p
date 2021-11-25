@@ -1,4 +1,4 @@
-.content-data{
+.activityA-content{
     min-width: 59%;
     max-width: 990px;
     margin: 0 auto;
@@ -81,7 +81,7 @@
             flex-direction: column;
             margin: 0 auto;
 
-            .content-buttom{
+            .activityA-buttom{
                 display: flex;
                 justify-content: center;
                 gap: 15px;
@@ -107,10 +107,10 @@
                 }
             }
 
-            .video-buttom{
+            .activityB-buttom{
                 display: flex;
                 justify-content: flex-start;
-                gap: 20px;
+                gap: 15px;
                 font-family: 'Roboto', sans-serif;
                 font-size: 15pt;
                 color: #666;
@@ -124,23 +124,23 @@
                 box-shadow: 0px 0px 18px 0px rgb(188, 195, 214);
                 transition: 0.2s;
 
-                .grayVideo-icon{
+                .grayPaper-icon{
                     display: inline-block;
-                    width: 24px;
-                    height: 24px;
-                    background-image: url('../../../Assets/grayVideo.png');
+                    width: 17px;
+                    height: 20px;
+                    background-image: url('../../../Assets/grayPaper.png');
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
                 }
             }
 
-            .video-buttom:hover{
+            .activityB-buttom:hover{
                 background-color: #ff8a98;
                 color: white;
 
-                .grayVideo-icon{
-                    background-image: url('../../../Assets/whiteVideo.png');
+                .grayPaper-icon{
+                    background-image: url('../../../Assets/whitePaper.png');
                 }
             }
         }
