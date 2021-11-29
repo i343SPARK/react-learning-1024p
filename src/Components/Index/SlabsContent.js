@@ -26,7 +26,7 @@ export const SlabsContent = ({topic}) => {
             </Link>
             </div>
             <div className="slab-sect-b">
-            <Link className="linkSlab" to="/">
+            <Link className="linkSlab" to="/activity-B">
                 <article className="article-a2">
                     <h3 className="h3-slab">Actividad B</h3>
                     <p className="p-slab">{topic.activityB}</p>

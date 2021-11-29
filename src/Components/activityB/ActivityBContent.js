@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export function ActivityAContent() {
+export function ActivityBContent() {
     return (
-        <section className="activityA-content">
+        <section className="activityB-content">
                 <h2>Técnica didáctica</h2>
             <div className='timer-content'>
                 <span className='timer'></span>
@@ -12,7 +12,7 @@ export function ActivityAContent() {
             <section className='content-center'>
                 <div className='descript-content'>
                     <article className='scroll-describt'>
-                        <h3>Actividad A</h3>
+                        <h3>Actividad B</h3>
                         <p className='activityA-activity'></p>
                     </article>
                 </div>
@@ -22,8 +22,8 @@ export function ActivityAContent() {
                 </div>
             </section>
             <div className='bottom-div'>
-                <Link to='/content-video' className='back-buttom'>Atrás</Link>
-                <Link to='/activity-B' className='next-buttom'>Siguiente</Link>
+                <Link to='/Activity-A' className='back-buttom'>Atrás</Link>
+                <Link to='/' className='next-buttom'>Siguiente</Link>
             </div>
         </section>
     )
