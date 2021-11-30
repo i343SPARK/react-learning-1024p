@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export function ActivityBContent() {
     return (
         <section className="activityB-content">
-                <h2>Técnica didáctica</h2>
+                <h2>Técnica Auditiva</h2>
             <div className='timer-content'>
                 <span className='timer'></span>
                 <p className='p-time'>5 min.</p>
