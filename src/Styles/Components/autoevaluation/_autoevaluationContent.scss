@@ -108,7 +108,7 @@
                 }
             }
 
-            .activityB-buttom{
+            .autoevaluation-buttom{
                 display: flex;
                 justify-content: center;
                 gap: 15px;
@@ -164,15 +164,15 @@
             text-decoration: none;
             text-align: center;
             color: #fff;
-            background-color: #0000cc;
-            border: 3px solid #0000cc;
+            background-color: #11cc00;
+            border: 3px solid #11cc00;
             border-radius: 30px;
             transition: 0.2s;
         }
 
         .next-buttom:hover{
-            background-color: #3535b9;
-            border: 3px solid #3535b9;
+            background-color: #55d34a;
+            border: 3px solid #55d34a;
         }
     }
 }
