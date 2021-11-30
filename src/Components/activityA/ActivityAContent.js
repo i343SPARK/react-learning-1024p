@@ -23,7 +23,7 @@ export function ActivityAContent() {
             </section>
             <div className='bottom-div'>
                 <Link to='/content-video' className='back-buttom'>Atrás</Link>
-                <Link to='/activity-B' className='next-buttom'>Siguiente</Link>
+                <Link to='/activity-B' className='next-buttom'>Actividad B</Link>
             </div>
         </section>
     )

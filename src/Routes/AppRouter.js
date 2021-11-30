@@ -5,6 +5,7 @@ import {ContentTextScreen} from '../Components/contentText/ContentTextScreen'
 import { ContentVideoScreen } from '../Components/contentVideo/ContentVideoScreen'
 import { ActivityAScreen } from '../Components/activityA/ActivityAScreen'
 import { ActivityBScreen } from '../Components/activityB/ActivityBScreen'
+import { AutoevaluacionScreen } from '../Components/autoevaluetion/AutoevaluacionScreen'
 
 
 export default function AppRouter() {
@@ -15,6 +16,7 @@ export default function AppRouter() {
             <Route exact path='/content-video' component={ContentVideoScreen} />
             <Route exact path='/Activity-A' component={ActivityAScreen} />
             <Route exact path='/activity-B' component={ActivityBScreen} />
+            <Route exact path='/autoevaluation' component={AutoevaluacionScreen} />
             <Route render={() => <IndexScreen />} />
         </Switch>
     )

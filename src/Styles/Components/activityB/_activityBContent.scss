@@ -164,13 +164,15 @@
             text-decoration: none;
             text-align: center;
             color: #fff;
-            background-color: #666;
+            background-color: #0000cc;
+            border: 3px solid #0000cc;
             border-radius: 30px;
             transition: 0.2s;
         }
 
         .next-buttom:hover{
-            background-color: rgb(131, 131, 131);
+            background-color: #3535b9;
+            border: 3px solid #3535b9;
         }
     }
 }

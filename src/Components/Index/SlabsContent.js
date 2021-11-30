@@ -33,7 +33,7 @@ export const SlabsContent = ({topic}) => {
                     <img className="icon" src={start} alt="icon"/>
                 </article>
             </Link>
-            <Link className="linkSlab" to="/">
+            <Link className="linkSlab" to="/autoevaluation">
                 <article className="article-b2">
                     <h3 className="h3-slab">AUTOEVALUACIÓN</h3>
                     <p className="p-slab">{topic.test}</p>
