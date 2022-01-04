@@ -3,19 +3,22 @@ import { ActivityADescribt } from './ActivityADescribt'
 import { ContentHeader } from './ContentHeader'
 import { ActivityAContent } from './ActivityAContent'
 import { useFetch } from '../../Hooks/useFetch'
-import { SslabContext } from '../../Context/SlabContext'
+import { useParams } from 'react-router'
 
 export function ActivityAScreen() {
 
-    const {data: activity, loading: activityLoading, error: activityError} = useFetch(`activities/activityById/1`)
-    console.log(activity)
+    const { slabId, activityId } = useParams();
+
+    console.log(activityId)
+    const { data: activity, loading: activityLoading, error: activityError } = useFetch(`activities/activityById/${activityId}`)
+
     return (
         <>
-            <ContentHeader/>
-            {(!activityLoading) &&(
+            <ContentHeader />
+            {(!activityLoading) && (
                 <>
-                <ActivityADescribt activityData = {activity[0]}/>
-                <ActivityAContent dataActivity = {activity[0]}/>
+                    <ActivityADescribt activityData={activity[0]} />
+                    <ActivityAContent dataActivity={activity[0]} />
                 </>
             )}
         </>

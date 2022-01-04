@@ -2,9 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export function ContentTematic(topic) {
-
-    console.log(`topic =>` + topic)
-
+    console.log('content tematic')
+    console.log(topic)
     return (
         <section className="content-data">
                 <h2>contenido temático</h2>
@@ -23,12 +22,12 @@ export function ContentTematic(topic) {
                 </div>
                 <div className='left-content-buttoms'>
                     <Link to='/content-text' className='content-buttom'><span className='pinkPaper-icon'></span> Contenido</Link>
-                    <Link to='/content-video' className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
+                    <Link to={`/content-video/${topic.topic.slabId}`} className='video-buttom'><span className='grayVideo-icon'></span> Video</Link>
                 </div>
             </section>
             <div className='bottom-div'>
                 <Link to='/' className='back-buttom'>Atrás</Link>
-                <Link to='/content-video' className='next-buttom'>Video</Link>
+                <Link to={`/content-video/${topic.topic.slabId}`} className='next-buttom'>Video</Link>
             </div>
         </section>
     )

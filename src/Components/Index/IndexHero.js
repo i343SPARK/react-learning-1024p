@@ -3,7 +3,6 @@ import Bgimg from "../../Assets/BG.png"
 import cima from '../../Assets/CIMA.png'
 import persons from '../../Assets/persons.png'
 import { Link } from 'react-router-dom'
-import { useFetch } from '../../Hooks/useFetch'
 
 export const IndexHero = (course) => {
 

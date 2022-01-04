@@ -1,11 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { BackButton } from '../common/BackButton'
+import { useFetch } from '../../Hooks/useFetch'
 
 export function ActivityAContent(dataActivity) {
+
+    const { data: activity, loading: activityLoading, error: activityError } = useFetch(`activities/activityBySlabId/${dataActivity.dataActivity.slabId}`)
+
     console.log(dataActivity)
+    console.log(activity)
     return (
         <section className="activityA-content">
-                <h2>{dataActivity.dataActivity.type}</h2>
+            <h2>{dataActivity.dataActivity.type}</h2>
             <div className='timer-content'>
                 <span className='timer'></span>
                 <p className='p-time'>5 min.</p>
@@ -18,13 +24,21 @@ export function ActivityAContent(dataActivity) {
                     </article>
                 </div>
                 <div className='left-content-buttoms'>
-                    <Link to='/Activity-A' className='activityA-buttom'><span className='pinkPaper-icon'></span> Actividad A</Link>
-                    <Link to='/activity-B' className='activityB-buttom'><span className='grayPaper-icon'></span> Actividad B</Link>
+
+                    {(!activityLoading) &&
+                        (
+                            <>
+                            <Link to= {`/Activity-A/${dataActivity.slabId}/${activity[0].id}`} className='activityA-buttom'><span className='pinkPaper-icon'></span> Actividad A</Link>
+                            <Link to= {`/activity-B/${dataActivity.slabId}/${activity[1].id}`} className='activityB-buttom'><span className='grayPaper-icon'></span> Actividad B</Link>
+                            </>
+                        )}
                 </div>
             </section>
             <div className='bottom-div'>
-                <Link to='/content-video' className='back-buttom'>Atrás</Link>
-                <Link to='/activity-B' className='next-buttom'>Actividad B</Link>
+                <BackButton className={'back-buttom'} />
+                {!(activityLoading) && (
+                    <Link to={`/activity-B/${dataActivity.slabId}/${activity[1].id}`} className='next-buttom'>Actividad B</Link>
+                )}
             </div>
         </section>
     )

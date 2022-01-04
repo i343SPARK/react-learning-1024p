@@ -12,10 +12,10 @@ export default function AppRouter() {
     return (
         <Switch>
             <Route exact path='/' component={IndexScreen} />
-            <Route exact path='/content-text' component={ContentTextScreen}/>
-            <Route exact path='/content-video' component={ContentVideoScreen} />
-            <Route exact path='/Activity-A' component={ActivityAScreen} />
-            <Route exact path='/activity-B' component={ActivityBScreen} />
+            <Route exact path='/content-text/:slabId' component={ContentTextScreen}/>
+            <Route exact path='/content-video/:slabId' component={ContentVideoScreen} />
+            <Route exact path='/Activity-A/:slabId/:activityId' component={ActivityAScreen} />
+            <Route exact path='/activity-B/:slabId/:activityId' component={ActivityBScreen} />
             <Route exact path='/autoevaluation' component={AutoevaluacionScreen} />
             <Route render={() => <IndexScreen />} />
         </Switch>
