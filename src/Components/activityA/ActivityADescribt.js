@@ -9,8 +9,8 @@ export function ActivityADescribt(activityData) {
     return (
         <section className="intro-text-content">
                 <>
-                <h1>{activityData.title}</h1>
-                <p className="intro-p">{activityData.description}</p>
+                <h1>{activityData.activityData.title}</h1>
+                <p className="intro-p">{activityData.activityData.description}</p>
                 </>
         </section>
     )

@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 const axios = require('axios');
-const base = 'http://localhost:3000/'
-//'https://xlp-lab-backend-mysql.herokuapp.com/';
+const base = 'https://xlp-lab-backend-mysql.herokuapp.com/';
 export const baseUrl = base;
 
 export const useFetch = (url) =>{
